@@ -51,3 +51,10 @@ function mousePressed(){
     fill("#FF0000");
     circle(mouseX,mouseY,50);
 }
+
+function mousePressed() {
+    if (mouseX >= 0, mouseX <= width, 
+        mouseY >= 0 && mouseY <= height) {
+        generateGrid();
+    }
+}   
